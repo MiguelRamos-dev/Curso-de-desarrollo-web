@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Reggae + One & display = swap" rel = "hoja de estilo">
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" class="formulario" id="formulario" name="formulario">
+            <div class="contenedor-inputs">
+                <input type="text" name="nombre" placeholder="nombre">
+                <input type="text" name="correo" placeholder="correo">
+                
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="hombre" value="Hombre">
+                    <label class="label-radio hombre" for="hombre">Hombre</label>
+                    <input type="radio" name="sexo" id="mujer" value="Mujer">
+                    <label class="label-radio mujer" for="mujer">Mujer</label>
+                </div>
+
+                    <div class="terminos">
+                        <input type="checkbox" name="terminos" id="terminos">
+                        <label for="terminos">Acepto terminos y condiciones</label>
+                    </div>
+
+                        <ul class="error" id="error"></ul>
+            </div>
+
+                    <input type="submit" class="btn" value="registrate">
+
+        </form>
+    </div>
+        
+
+
+    </div>
+    <script src="formulario.js"></script>
+</body>
+</html>
